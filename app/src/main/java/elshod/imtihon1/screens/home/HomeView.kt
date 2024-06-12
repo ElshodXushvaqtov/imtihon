@@ -25,7 +25,6 @@ fun HomeView(viewModel: HomeViewModel, navController: NavController) {
     Scaffold(bottomBar = {
         BottomNavigationComponent(navController = navController)
     }) {
-        Text(text = "Fizikadan qiziqarli 3 ta savol va 3 ta fakt", fontSize = 20.sp, modifier = Modifier.padding(start = 20.dp, top = 10.dp), style = TextStyle(textAlign = TextAlign.Center))
         LazyColumn(
             modifier = Modifier
                 .padding(it)
